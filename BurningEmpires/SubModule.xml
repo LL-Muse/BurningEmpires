@@ -1,0 +1,43 @@
+<Module>
+	<Name value = "Burning Empires"/>
+	<Id value = "BurningEmpires"/>
+	<Version value = "v1.5.3"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value = "BurningEmpires"/>
+			<DLLName value = "BurningEmpires.dll"/>
+			<SubModuleClassType value = "BurningEmpires.SubModule"/>			
+			<Tags>
+				<Tag key="DedicatedServerType" value ="none" />
+				<Tag key="IsNoRenderModeElement" value ="false" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="spnpccharacters_burningempires"/>
+			<IncludedGameTypes>
+				<Gametype value="Campaign"/>
+				<Gametype value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="SPCultures" path="spcultures_burningempires"/>
+			<IncludedGameTypes>
+				<Gametype value="Campaign"/>
+				<Gametype value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>
