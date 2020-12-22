@@ -11550,12 +11550,12 @@
 			<name name ="{=hunnic_female_name_74}Sebnem" />
 		</female_names>
 		<clan_names>
-			<name name ="{=hunnic_clans.txt_clan_name_1}Alpidzur" />
-			<name name ="{=hunnic_clans.txt_clan_name_2}Zabender" />
-			<name name ="{=hunnic_clans.txt_clan_name_3}Tarniak" />
-			<name name ="{=hunnic_clans.txt_clan_name_4}Saragur" />
-			<name name ="{=hunnic_clans.txt_clan_name_5}Kutrigur" />
-			<name name ="{=hunnic_clans.txt_clan_name_6}Utigur" />
+			<name name ="{=hunnic_clan_name_1}Alpidzur" />
+			<name name ="{=hunnic_clan_name_2}Zabender" />
+			<name name ="{=hunnic_clan_name_3}Tarniak" />
+			<name name ="{=hunnic_clan_name_4}Saragur" />
+			<name name ="{=hunnic_clan_name_5}Kutrigur" />
+			<name name ="{=hunnic_clan_name_6}Utigur" />
 		</clan_names>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
